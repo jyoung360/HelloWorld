@@ -1,0 +1,6 @@
+FROM node:alpine
+
+ADD . /opt/pavia/
+WORKDIR /opt/pavia
+
+CMD ["node","server.js"]
